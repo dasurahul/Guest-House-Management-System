@@ -35,7 +35,9 @@ ul {
 }
 
 section {
-  margin-block: 2rem;
+  width: 80%;
+  margin-inline: auto;
+  margin-block: 3rem;
 }
 
 /* Flexbox */
@@ -189,4 +191,51 @@ section {
   height: 0.2rem;
   margin-inline: auto;
   background-color: var(--primary-color);
+}
+
+.grid {
+  margin-block: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: var(--white-color);
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card-image {
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+}
+
+.card-1 {
+  background-image: url(./images/mumbai.jpg);
+}
+
+.card-2 {
+  background-image: url(./images/dubai.jpg);
+}
+
+.card-3 {
+  background-image: url(./images/new-york.jpg);
+}
+
+.card-4 {
+  background-image: url(./images/miami.jpg);
+}
+
+.card-body {
+  padding: 0.75rem;
+  height: 80px;
+}
+
+.card:hover {
+  transform: scale(1.025);
 }
