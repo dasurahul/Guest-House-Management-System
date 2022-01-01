@@ -239,3 +239,19 @@ section {
 .card:hover {
   transform: scale(1.025);
 }
+
+.room-1 {
+  background-image: url("./images/bedroom.jpg");
+}
+
+.room-2 {
+  background-image: url("./images/bathroom.jpg");
+}
+
+.room-3 {
+  background-image: url("./images/balcony.jpg");
+}
+
+.room-4 {
+  background-image: url("./images/livingroom.jpg");
+}
