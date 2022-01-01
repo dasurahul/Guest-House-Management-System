@@ -2,7 +2,8 @@
   --light-gray-color: #eeeeee;
   --black-color: #333333;
   --white-color: #ffffff;
-  --primary-color: #4f9788;
+  --primary-color: #4f9688;
+  --primary-dark-color: #3e756a;
 }
 
 *,
@@ -34,9 +35,20 @@ ul {
   margin: 0;
 }
 
-section {
+/* Container */
+
+.container {
   width: 80%;
   margin-inline: auto;
+}
+
+/* Margin */
+
+.margin-2 {
+  margin-block: 2rem;
+}
+
+.margin-3 {
   margin-block: 3rem;
 }
 
@@ -72,8 +84,6 @@ section {
 
 .navbar {
   height: 6rem;
-  width: 80%;
-  margin-inline: auto;
 }
 
 .logo-container {
@@ -137,6 +147,7 @@ section {
 
 .button:hover {
   cursor: pointer;
+  background-color: var(--primary-dark-color);
 }
 
 .background {
@@ -193,7 +204,6 @@ section {
 }
 
 .grid {
-  margin-block: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -253,4 +263,61 @@ section {
 
 .room-4 {
   background-image: url("./images/livingroom.jpg");
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding-block: 3rem;
+}
+
+.footer-title {
+  margin-bottom: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+.alternate {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 0.2rem solid transparent;
+}
+
+.alternate:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: 0.2rem solid var(--white-color);
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white-color);
+  margin-bottom: 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.info {
+  margin-bottom: 1rem;
+}
+
+.social-media-icon {
+  width: 2rem;
 }

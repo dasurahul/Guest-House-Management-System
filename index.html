@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="navbar flex space-between center">
+    <div class="navbar container flex space-between center">
         <div class="logo-container flex space-between center small-gap">
             <img class="logo" src="./images/logo.png" alt="logo" />
             <div class="bold">AIRY<span class="text-primary">Hotels</span></div>
@@ -27,16 +27,16 @@
     </div>
     <div class="background">
         <form class="form">
-            <input type="text" placeholder="Select City, Location (Worldwide)" />
+            <input type="text" placeholder="Search City, Location (Worldwide)" />
             <button class="button">
                 <img src="./images/search-icon.png" alt="search" />
             </button>
         </form>
     </div>
-    <section>
+    <section class="container margin-3">
         <h2 class="title">Popular Destinations</h2>
         <div class="underline"></div>
-        <div class="grid">
+        <div class="grid margin-2">
             <div class="card">
                 <div class="card-image card-1"></div>
                 <div class="card-body flex space-between center">
@@ -67,10 +67,10 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="container margin-3">
         <h2 class="title">Our Rooms</h2>
         <div class="underline"></div>
-        <div class="grid">
+        <div class="grid margin-2">
             <div class="card">
                 <div class="card-image room-1"></div>
                 <div class="card-body flex space-between center">
@@ -101,6 +101,42 @@
             </div>
         </div>
     </section>
+    <div class="footer">
+        <div class="container grid">
+            <div>
+                <h2 class="footer-title">Contact Us</h2>
+                <form class="contact-form">
+                    <input type="email" placeholder="Enter your email address" />
+                    <textarea rows="10" placeholder="Enter your message"></textarea>
+                    <button class="button alternate">Send</button>
+                </form>
+            </div>
+            <div>
+                <h2 class="footer-title">Destinations</h2>
+                <p><a class="link" href="#">Mumbai</a></p>
+                <p><a class="link" href="#">Goa</a></p>
+                <p><a class="link" href="#">Chennai</a></p>
+                <p><a class="link" href="#">Bangalore</a></p>
+            </div>
+            <div>
+                <h2 class="footer-title">Address</h2>
+                <div>
+                    <p class="info">Bangalore, India</p>
+                    <p class="info">rahul@rahul.com</p>
+                    <p class="info">+919337086565</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="footer-title">Connect With Us</h2>
+                <div class="flex gap-1">
+                    <a href="#"><img class="social-media-icon" src="./images/facebook.png" alt="facebook"></a>
+                    <a href="#"><img class="social-media-icon" src="./images/instagram.png" alt="instagram"></a>
+                    <a href="#"><img class="social-media-icon" src="./images/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img class="social-media-icon" src="./images/twitter.png" alt="twitter"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
