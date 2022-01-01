@@ -77,8 +77,8 @@ section {
 }
 
 .logo-container {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .logo {
@@ -117,7 +117,6 @@ section {
   height: 0.2rem;
   width: 100%;
   background-color: var(--primary-color);
-  transform: scale(0);
   transform: scale(0);
   transition: transform 0.2s;
 }
@@ -200,8 +199,8 @@ section {
 }
 
 .card {
-  width: 300px;
-  height: 500px;
+  width: 18rem;
+  height: 30rem;
   background-color: var(--white-color);
   border-radius: 0.25rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
@@ -212,7 +211,7 @@ section {
 .card-image {
   background-position: center;
   background-size: cover;
-  height: 420px;
+  height: 26rem;
 }
 
 .card-1 {
@@ -233,7 +232,7 @@ section {
 
 .card-body {
   padding: 0.75rem;
-  height: 80px;
+  height: 4rem;
 }
 
 .card:hover {
