@@ -44,6 +44,10 @@ ul {
 
 /* Margin */
 
+.margin-1 {
+  margin-block: 1rem;
+}
+
 .margin-2 {
   margin-block: 2rem;
 }
@@ -137,6 +141,10 @@ ul {
   transform: scale(1);
 }
 
+.active {
+  color: var(--primary-color);
+}
+
 .button {
   background-color: var(--primary-color);
   color: var(--white-color);
@@ -151,6 +159,8 @@ ul {
   cursor: pointer;
   background-color: var(--primary-dark-color);
 }
+
+/* Home Page */
 
 .background {
   height: calc(100vh - 6rem);
@@ -339,4 +349,11 @@ ul {
 
 .social-media-icon {
   width: 2rem;
+}
+
+/* Contact Page */
+
+.person img {
+  width: 6rem;
+  height: 6rem;
 }
