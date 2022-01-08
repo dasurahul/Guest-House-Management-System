@@ -1,4 +1,4 @@
-# Guest-House-Management-System
+# AIRY Hotels
 
 - [page](https://rahul-guesthousemanagementsystem.netlify.app)
 
