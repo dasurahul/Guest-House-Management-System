@@ -23,7 +23,7 @@
             <li class="nav-item flex center full-height"><a href="About.html" class="nav-link">About Us</a></li>
             <li class="nav-item flex center full-height"><a href="#" class="nav-link active">Contact Us</a></li>
         </ul>
-        <button class="button">Log In</button>
+        <button class="button" onclick="navigateToLoginPage()">Log In</button>
     </div>
     <section class="container margin-3">
         <h1 class="title">Contact Us</h1>
@@ -103,6 +103,11 @@
             </div>
         </div>
     </div>
+    <script>
+        const navigateToLoginPage = () => {
+            window.location.href = '/login.html';
+        };
+    </script>
 
 </body>
 
