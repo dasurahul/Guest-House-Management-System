@@ -5,6 +5,9 @@
   --primary-light-color: #eef6f5;
   --primary-color: #69b0a2;
   --primary-dark-color: #3e756a;
+  --secondary-light-color: hsl(210, 100%, 90%);
+  --secondary-color: hsl(210, 100%, 60%);
+  --secondary-dark-color: hsl(210, 100%, 30%);
 }
 
 *,
@@ -375,8 +378,8 @@ ul {
   color: var(--white-color);
   background-image: linear-gradient(
     to top right,
-    var(--primary-color),
-    var(--primary-dark-color)
+    var(--secondary-color),
+    var(--secondary-dark-color)
   );
   border-radius: 0.5rem;
   overflow: hidden;
@@ -427,7 +430,7 @@ ul {
   padding: 0 3rem;
   border: none;
   border-radius: 0.25rem;
-  background-color: var(--primary-light-color);
+  background-color: var(--secondary-light-color);
   font-size: 1rem;
   margin-bottom: 2rem;
 }
@@ -443,7 +446,7 @@ ul {
   font-size: 1rem;
   font-weight: bold;
   color: var(--white-color);
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border: none;
   border-radius: 0.25rem;
 }
