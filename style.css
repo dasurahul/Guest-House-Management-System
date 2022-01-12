@@ -5,9 +5,9 @@
   --primary-light-color: #eef6f5;
   --primary-color: #69b0a2;
   --primary-dark-color: #3e756a;
-  --secondary-light-color: hsl(210, 100%, 90%);
-  --secondary-color: hsl(210, 100%, 60%);
-  --secondary-dark-color: hsl(210, 100%, 30%);
+  --secondary-light-color: #cce6ff;
+  --secondary-color: #3399ff;
+  --secondary-dark-color: #004d99;
 }
 
 *,
