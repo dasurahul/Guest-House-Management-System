@@ -454,3 +454,38 @@ ul {
 .login-form button:hover {
   cursor: pointer;
 }
+
+/* About Page */
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.two-columns img {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.second-column {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.second-column h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.second-column p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.second-column p::first-letter {
+  font-size: 2rem;
+  line-height: 1;
+}
