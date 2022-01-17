@@ -483,9 +483,16 @@ ul {
   font-size: 0.9rem;
   line-height: 1.8;
   text-align: justify;
+  margin-bottom: 1rem;
 }
 
 .second-column p::first-letter {
   font-size: 2rem;
   line-height: 1;
+}
+
+.second-column a {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
 }
