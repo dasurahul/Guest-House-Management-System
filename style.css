@@ -363,6 +363,10 @@ ul {
   height: 6rem;
 }
 
+.person p {
+  color: var(--gray-color);
+}
+
 /* Login Page */
 
 .login-page {
