@@ -8,6 +8,7 @@
   --secondary-light-color: #cce6ff;
   --secondary-color: #3399ff;
   --secondary-dark-color: #004d99;
+  --gray-color: #666;
 }
 
 *,
@@ -480,6 +481,7 @@ ul {
 }
 
 .second-column p {
+  color: var(--gray-color);
   font-size: 0.9rem;
   line-height: 1.8;
   text-align: justify;
@@ -493,6 +495,7 @@ ul {
 
 .second-column a {
   color: var(--primary-color);
+  font-weight: bold;
   display: flex;
   justify-content: flex-end;
 }
