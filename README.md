@@ -1,6 +1,6 @@
 # AIRY Hotels
 
-- [page](https://rahul-guesthousemanagementsystem.netlify.app)
+- [page](https://airy-hotels.netlify.app)
 
 ![Guest House Management System](./images/page.png)
 
