@@ -10,7 +10,102 @@
 </head>
 
 <body>
-
+    <div class="navbar container flex space-between center">
+        <div class="logo-container flex space-between center small-gap">
+            <img class="logo" src="./images/logo.png" alt="logo" />
+            <div class="bold">AIRY<span class="text-primary">Hotels</span></div>
+        </div>
+        <ul class="nav flex gap-2 full-height">
+            <li class="nav-item flex center full-height"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item flex center full-height"><a href="meeting.html" class="nav-link">Meeting</a></li>
+            <li class="nav-item flex center full-height"><a href="offer.html" class="nav-link active">Offer</a></li>
+            <li class="nav-item flex center full-height"><a href="about.html" class="nav-link">About Us</a></li>
+            <li class="nav-item flex center full-height"><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+        <button class="button" onclick="navigateToLoginPage()">Log In</button>
+    </div>
+    <section class="container margin-3">
+        <h1 class="title">Offer</h1>
+        <div class="underline"></div>
+        <div class="parent">
+            <div class="left margin-3">
+                <div>Offer</div>
+                <div>Valentine's Day Offer</div>
+                <div>AIRY Hotel Exclusive Offer</div>
+                <div>Suite Surprise Offer</div>
+                <div>Urban Getaways Offer</div>
+            </div>
+            <div class="right margin-3">
+                <div class="offers">
+                    <div class="offer">
+                        <img src="images/offer-1.jpeg">
+                        <h4>Valentine's Day Special Surprises</h4>
+                        <p>Valid Till 14th Feb 2022</p>
+                        <button>View Details</button>
+                    </div>
+                    <div class="offer">
+                        <img src="images/offer-2.jpeg">
+                        <h4>AIRY Hotel Exclusive</h4>
+                        <p>Round the year</p>
+                        <button>View Details</button>
+                    </div>
+                    <div class="offer">
+                        <img src="images/offer-3.jpeg">
+                        <h4>Suite Surprises</h4>
+                        <p>Valid Till 30th Sep 2022</p>
+                        <button>View Details</button>
+                    </div>
+                    <div class="offer">
+                        <img src="images/offer-4.jpeg">
+                        <h4>Urban Getaways</h4>
+                        <p>Valid Till 30th Sep 2022</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container grid">
+            <div>
+                <h2 class="footer-title">Email Us</h2>
+                <form class="contact-form">
+                    <input type="email" placeholder="Enter your email address" />
+                    <textarea rows="10" placeholder="Enter your message"></textarea>
+                    <button class="button alternate">Send</button>
+                </form>
+            </div>
+            <div>
+                <h2 class="footer-title">Destinations</h2>
+                <p><a class="link" href="#">Mumbai</a></p>
+                <p><a class="link" href="#">Goa</a></p>
+                <p><a class="link" href="#">Chennai</a></p>
+                <p><a class="link" href="#">Bangalore</a></p>
+            </div>
+            <div>
+                <h2 class="footer-title">Address</h2>
+                <div>
+                    <p class="info">Bangalore, India</p>
+                    <p class="info">dasurahul@gmail.com</p>
+                    <p class="info">+91 9337 086 565</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="footer-title">Connect With Us</h2>
+                <div class="flex gap-1">
+                    <a href="#"><img class="social-media-icon" src="./images/facebook.png" alt="facebook"></a>
+                    <a href="#"><img class="social-media-icon" src="./images/instagram.png" alt="instagram"></a>
+                    <a href="#"><img class="social-media-icon" src="./images/linkedin.png" alt="linkedin"></a>
+                    <a href="#"><img class="social-media-icon" src="./images/twitter.png" alt="twitter"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const navigateToLoginPage = () => {
+            window.location.href = '/login.html';
+        };
+    </script>
 </body>
 
 </html>
