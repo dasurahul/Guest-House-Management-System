@@ -40,6 +40,10 @@ ul {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 /* Container */
 
 .container {
@@ -502,4 +506,18 @@ ul {
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+}
+
+/* Meeting */
+
+.meetings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.meeting img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
