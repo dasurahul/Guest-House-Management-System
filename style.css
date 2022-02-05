@@ -377,6 +377,11 @@ img {
   height: 100vh;
   display: grid;
   place-items: center;
+  background-image: linear-gradient(
+    to top right,
+    var(--secondary-color),
+    var(--secondary-dark-color)
+  );
 }
 
 .login-page-container {
@@ -384,12 +389,8 @@ img {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
-  color: var(--white-color);
-  background-image: linear-gradient(
-    to top right,
-    var(--secondary-color),
-    var(--secondary-dark-color)
-  );
+  color: var(--black-color);
+  background-color: var(--white-color);
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
