@@ -510,9 +510,29 @@ img {
 
 /* Meeting */
 
-.meetings {
+.parent {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 2fr 8fr;
+}
+
+.left {
+  padding-inline: 1rem;
+  font-size: 0.8rem;
+}
+
+.left > *:first-child {
+  font-weight: bold;
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+
+.left > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.meetings {
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
