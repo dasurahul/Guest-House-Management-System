@@ -535,13 +535,10 @@ img {
 }
 
 .meetings {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 1rem;
 }
 
 .meeting img {
-  width: 400px;
-  height: 300px;
-  object-fit: cover;
+  width: 100%;
 }
