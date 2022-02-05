@@ -523,11 +523,15 @@ img {
 .left > *:first-child {
   font-weight: bold;
   color: var(--white-color);
-  background-color: var(--black-color);
+  background-color: var(--primary-color);
 }
 
 .left > *:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+.left > * {
+  padding: 0.5rem;
 }
 
 .meetings {
